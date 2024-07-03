@@ -1,8 +1,8 @@
 
-function writeCards(array, eventName) {
+function writeCards(people, eventName) {
     const thankYouMessages = [];
-    for(let i = 0; i < array.length; i++) {
-        const message = `Thank you, ${array[i]}, for the wonderful ${eventName} gift!`;
+    for(let i = 0; i < people.length; i++) {
+        const message = `Thank you, ${people[i]}, for the wonderful ${eventName} gift!`;
         thankYouMessages.push(message);
     }
     return thankYouMessages;
